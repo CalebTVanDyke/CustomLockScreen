@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = CustomLockScreenPrefs;
+	cell = PSLinkCell;
+	detail = CustomLockScreenPrefsListController;
+	icon = CustomLockScreenPrefs.png;
+	isController = 1;
+	label = "Custom LockScreen";
+    };
+}

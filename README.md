@@ -1,0 +1,1 @@
+Custom Lock Screen is a tweak for IOS 7 that enables the customization of most elements on the lock screen.

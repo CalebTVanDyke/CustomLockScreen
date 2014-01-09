@@ -1,0 +1,9 @@
+Package: com.cvandyke.customlockscreen
+Name: Custom LockScreen
+Depends: mobilesubstrate
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Completely customize your lockscreen with this tweak. Allows you to hide the date and time, custom slide to unlock text, add time to status bar, and also shrink the status bar so that it is the same size as the unlocked status bar.
+Maintainer: Caleb Van Dyke
+Author: Caleb Van Dyke
+Section: Tweaks

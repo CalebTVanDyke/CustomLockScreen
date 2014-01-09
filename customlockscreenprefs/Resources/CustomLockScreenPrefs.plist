@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>items</key>
+    <array>
+        <dict>
+            <key>cell</key>             <string>PSGroupCell</string>
+            <key>label</key>            <string>Slider Settings</string>
+        </dict>
+        <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.cvandyke.customlockscreenprefs</string>
+            <key>key</key>              <string>CLisEnabled</string>
+            <key>label</key>            <string>Enable Custom Text</string>
+            <key>alternateColors</key>  <true/>
+            <key>PostNotification</key> <string>com.cvandyke.customlockscreenprefs/loadPrefs</string>
+        </dict>
+        <dict>
+            <key>cell</key>             <string>PSEditTextCell</string>
+            <key>default</key>			<string>Custom LockScreen</string>
+            <key>defaults</key>         <string>com.cvandyke.customlockscreenprefs</string>
+            <key>key</key>              <string>CLtext</string>
+            <key>label</key>            <string>Slider Text</string>
+            <key>PostNotification</key> <string>com.cvandyke.customlockscreenprefs/loadPrefs</string>
+        </dict>
+        <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>defaults</key>         <string>com.cvandyke.customlockscreenprefs</string>
+            <key>key</key>              <string>CLHideText</string>
+            <key>label</key>            <string>Hide Text</string>
+            <key>PostNotification</key> <string>com.cvandyke.customlockscreenprefs/loadPrefs</string>
+        </dict>
+        <dict>
+            <key>cell</key>             <string>PSGroupCell</string>
+            <key>label</key>            <string>Grabber Settings</string>
+        </dict>
+        <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>defaults</key>         <string>com.cvandyke.customlockscreenprefs</string>
+            <key>key</key>              <string>CLHideTopGrabber</string>
+            <key>label</key>            <string>Hide Top Grabber</string>
+            <key>PostNotification</key> <string>com.cvandyke.customlockscreenprefs/loadPrefs</string>
+        </dict>
+        <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>defaults</key>         <string>com.cvandyke.customlockscreenprefs</string>
+            <key>key</key>              <string>CLHideBotGrabber</string>
+            <key>label</key>            <string>Hide Bottom Grabber</string>
+            <key>PostNotification</key> <string>com.cvandyke.customlockscreenprefs/loadPrefs</string>
+        </dict>
+        <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>defaults</key>         <string>com.cvandyke.customlockscreenprefs</string>
+            <key>key</key>              <string>CLHideCamGrabber</string>
+            <key>label</key>            <string>Hide Camera Grabber</string>
+            <key>PostNotification</key> <string>com.cvandyke.customlockscreenprefs/loadPrefs</string>
+        </dict>
+        <dict>
+            <key>cell</key>             <string>PSGroupCell</string>
+            <key>label</key>            <string>Date and Status Bar Settings</string>
+        </dict>
+        <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>defaults</key>         <string>com.cvandyke.customlockscreenprefs</string>
+            <key>key</key>              <string>CLHideLockDate</string>
+            <key>label</key>            <string>Hide Lock Screen Date</string>
+            <key>PostNotification</key> <string>com.cvandyke.customlockscreenprefs/loadPrefs</string>
+        </dict>
+        <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>defaults</key>         <string>com.cvandyke.customlockscreenprefs</string>
+            <key>key</key>              <string>CLShowStatusBarTime</string>
+            <key>label</key>            <string>Show Time in Status Bar</string>
+            <key>PostNotification</key> <string>com.cvandyke.customlockscreenprefs/loadPrefs</string>
+        </dict>
+        <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>defaults</key>         <string>com.cvandyke.customlockscreenprefs</string>
+            <key>key</key>              <string>CLSmallStatusBar</string>
+            <key>label</key>            <string>Small Lock Screen Status Bar</string>
+            <key>PostNotification</key> <string>com.cvandyke.customlockscreenprefs/loadPrefs</string>
+        </dict>
+        <dict>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+        <dict>
+            <key>action</key>			<string>reset</string>
+            <key>cell</key>				<string>PSButtonCell</string>
+            <key>label</key>			<string>Reset Settings</string>
+    	</dict>
+        <dict>
+            <key>cell</key>             <string>PSGroupCell</string>
+            <key>label</key>            <string>Developer Info</string>
+        </dict>
+        <dict>
+            <key>action</key>			<string>twitter</string>
+            <key>cell</key>				<string>PSButtonCell</string>
+            <key>label</key>			<string>Twitter</string>
+    	</dict>
+    	<dict>
+            <key>action</key>			<string>github</string>
+            <key>cell</key>				<string>PSButtonCell</string>
+            <key>label</key>			<string>GitHub</string>
+		</dict>
+		<dict>
+            <key>action</key>			<string>email</string>
+            <key>cell</key>				<string>PSButtonCell</string>
+            <key>label</key>			<string>Email</string>
+        </dict>
+    </array>
+    <key>title</key>
+    <string>Custom LockScreen</string>
+</dict>
+</plist>
